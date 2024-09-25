@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     main {
+       
+        box-sizing: border-box;
+        display: flex;
+        width: 100%;
+        
+     }
+     main div{
+        padding: 250px;
+        /* flex:25%; */
+     }
+     @media(max-width:700px){
+        main {
+            display: block;
+            width: 100%;
+        }
+        main div{
+            /* width: 100%; */
+            border: 1px solid black;
+
+        }
+        main div button{
+            padding: 5px 105px;
+            background-color: brown;
+            color: white;
+        }
+     }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="#home">خانه</a>
+        <a href="#aboutus">درباره ما</a>
+        <a href="#contactus">ارتباط با ما</a>
+        <a href="#product">محصولات</a>
+    </nav>
+    <main>
+        <div id="home">
+            <p>col 1</p>
+            <button>register</button>
+        </div>
+        <div id="aboutus">
+            <p> col 2</p>
+            <button>register</button>
+        </div>
+        <div id="contacus">
+            <p> col 3</p>
+            <button>register</button>
+        </div>
+        <div id="product">
+            <p> col 4</p>
+            <button>register</button>
+        </div>
+    </main>
+</body>
+
+</html>

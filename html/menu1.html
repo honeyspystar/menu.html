@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+    
+
+        body {
+            direction: ltr;
+        }
+        .navbar{
+            border: 1px solid black;
+        }
+
+        .navbar a {
+            color: black;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        .navbar a:hover {
+            color: #0e0909;
+        }
+
+        .main {
+            margin-top: 50px;
+        }
+
+        main {
+
+            box-sizing: border-box;
+            display: flex;
+            width: 100%;
+
+        }
+
+        main div {
+            padding: 250px;
+
+        }
+
+        @media(max-width:700px) {
+            main {
+                display: block;
+                width: 100%;
+            }
+
+            main div {
+                border: 1px solid black;
+
+            }
+
+            main div button {
+                padding: 5px 105px;
+                background-color: rgb(135, 161, 176);
+                color: rgb(12, 10, 10);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="home.html">home</a>
+        <a href="aboutus.html">aboutus</a>
+        <a href="contactus.html">contactus</a>
+        <a href="products.html">products</a>
+    </div>
+    <div class="main">
+
+        <main>
+            <main>
+                <div id="home">
+                    <p>col 1</p>
+                    <button>register</button>
+                </div>
+                <div id="aboutus">
+                    <p> col 2</p>
+                    <button>register</button>
+                </div>
+                <div id="contacus">
+                    <p> col 3</p>
+                    <button>register</button>
+                </div>
+                <div id="product">
+                    <p> col 4</p>
+                    <button>register</button>
+                </div>
+            </main>
+        </main>
+</body>
+
+</html>
